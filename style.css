@@ -1,0 +1,31 @@
+/* This changes the whole background and the font style */
+body {
+  background-color: #f0f8ff; /* A nice light blue color */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333; /* Dark gray text is easier to read than pure black */
+  text-align: center; /* This centers all your text and images */
+  padding: 50px;
+}
+
+/* This makes your main title look huge and colorful */
+h1 {
+  color: #ff4500; /* Orange-red color */
+  font-size: 50px;
+  text-shadow: 2px 2px 5px lightgray;
+}
+
+/* This styles your images to have rounded corners */
+img {
+  border-radius: 20px;
+  border: 5px solid white;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+}
+
+/* This makes your list look neat and centered */
+ul {
+  list-style-position: inside; /* Keeps the dots aligned with the text */
+  background: white;
+  display: inline-block; /* Makes the white box only as wide as the text */
+  padding: 20px;
+  border-radius: 10px;
+}
